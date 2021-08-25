@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai1</title>
+</head>
+<body>
+<script>
+    let a,b, result;
+    let num = parseInt(prompt("Nhập số cần in: "))
+    let count = 0
+    a = 0
+    b = 1
+    result =b
+    while (count < num) {
+        document.write(result + "<br>")
+        result = a + b
+        a = b
+        b = result
+        count++
+    }
+</script>
+</body>
+</html>
